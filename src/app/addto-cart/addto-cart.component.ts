@@ -8,6 +8,7 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
   templateUrl: './addto-cart.component.html',
   styleUrl: './addto-cart.component.scss'
 })
+
 export class AddtoCartComponent {
   constructor(private $gaService: GoogleAnalyticsService){}
 
