@@ -40,6 +40,11 @@ export class AddtoCartComponent {
       ]
     })
 
+
+}
+
+purchase(){
+
   this.$gaService.gtag("event", "purchase", {
     // This purchase event uses a different transaction ID
     // from the previous purchase event so Analytics
@@ -73,7 +78,6 @@ export class AddtoCartComponent {
       quantity: 3
     }]
 })
-
 }
   
 
